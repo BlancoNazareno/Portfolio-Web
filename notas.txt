@@ -1,0 +1,58 @@
+<body>
+    <!-- En el body siempre va todo el contenido a mostrar -->
+
+
+    <!-- Hay varios tipos de estilos por defecto, los h1, h2... 
+    Ej:
+    <h1>Este texto tendrá un estilo particular, distinto de h2 </h1> -->
+  
+   
+    <style>
+        
+        /* Acá es donde se pueden definir los estilos propios de una estilo (h1, por ejemplo), o bien, directamente 
+        las fuentes de los textos. Se usan las formas "inline" y de "clases"
+        -> Ej de inline:
+        <h1 style="color: blue; font-size: 20px;"> Texto a usar </h1>
+
+        -> Estilo con clase:
+        .estiloFuente {
+            color: blanck;
+            font-size:10px;
+            font-weight: 100 / bold /...        ->es el tipo de letra, bold es negrita, por ejemplo
+        } 
+        
+        ->Después, al momento del uso de un estilo con clase, se usa:
+         <h2 class="nombreEstiloFuente">Texto a usar</h2>
+        */   
+        
+    </style>
+
+    <!-- los saltos de párrafo primitivos se usan con " <div></div> " -->
+
+
+    <!-- También están los "módulos" del contenido:
+    <header></header>
+    <section></section>
+    <footer></footer> -->
+
+    <table>
+        <!-- Dentro de una tabla, "tr" son filas, y "td" columnas -->
+        <tr>
+            <td>
+                <img src="" alt="">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Ejemplo etiqueta:
+    <label for="">nombreEtiqueta</label> -->
+
+
+    <!-- Para emplear funciones, por ejemplo, se utiliza JavaScript:
+    <script>
+        function nombreFuncion(){
+            
+        }
+    </script> -->
+ 
+</body>
