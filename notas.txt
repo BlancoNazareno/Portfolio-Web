@@ -55,4 +55,7 @@
         }
     </script> -->
  
+ Botón con estilo (class="btnImagen") a link externo:
+ <a href="https://github.com/BlancoNazareno" target="_blank"> <input type="button" value="" class="btnImagen"> </a>
+
 </body>

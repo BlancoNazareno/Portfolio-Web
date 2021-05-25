@@ -8,6 +8,7 @@ body {
     background-size: cover;
   }
 
+/* Estilos de párrafos: */
   .estiloParrafo {
     color: black;
     font-size:35px;
@@ -30,12 +31,14 @@ body {
     text-align: center;
   }
 
+/* Estilo h1: */
   h1{
     font-family: Verdana;
     font-size: 50px;
     text-align: center;
   }
 
+  /* Estilos de título: */
   .estiloTitulo{
     color: black;
     font-size:30px;
@@ -52,6 +55,15 @@ body {
 
   }
 
+  .estiloTitulo3{
+    color: black;
+    font-size:25px;
+    font-weight:bold;
+    font-family: Verdana ;
+
+  }
+
+/* Estilo de footer: */
   .estiloFooter{
     color: black;
     font-size:20px;
@@ -59,13 +71,16 @@ body {
     font-family: Verdana ;
   }
 
+/* Estilo imagen:    ->no se utilizó, finalmente */
   .btnImagen{
     background-image:url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
     background-repeat:no-repeat;
-    height:100px;
-    width:100px;
-    background-size:100px;
+    height:120px;
+    width:120px;
+    background-size:120px;
     background-position:center;
-    position: relative;
-    left: 20px;
+    position:static;
+    text-align:center;
+    
   }
+
